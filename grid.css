@@ -1,0 +1,11 @@
+.contenedor {
+    display: grid;
+    /* grid-template-columns: indica el ancho y numero de columnas; */
+    grid-template-columns: 1fr 2fr 1fr;
+    /* unidad fr que indica una fraccion */
+    /* grid-template-rows: indica el alto y numero de filas; */
+    grid-template-rows: 150px 300px;
+    /* Para utilizar fr en rows es necesario indicar el heigth */
+    /* grid-cap es para generar un espaciado entre grillas */
+    grid-gap: 20px;
+}
