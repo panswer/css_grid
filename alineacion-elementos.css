@@ -1,0 +1,33 @@
+.contenedor {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 200px);
+    /* alinead */
+    /* 
+        justify-items => Permite alinear de forma horizontal
+        start: toma el espacio necesario alineando a la izquierda
+        auto: toma el espacio disponible
+        stretch: toma el espacio disponible
+        center: centra el contenido
+        end: toma el espacio necesario alineando a la derecha
+    */
+    justify-items: center;
+    /* 
+        align-items => Permite alinear de forma vertical
+        start:
+    */
+    align-items: center;
+}
+
+.contenedor .item {
+    background: #ff8000;
+    /* 
+        justify-self => permite alterar el alineado de un elemento especifico de forma horizontal
+    */
+    justify-self: stretch;
+    /* 
+        align-self => permite alterar el alineado de un elemento especifico de forma vertical
+    */
+    align-self: stretch;
+}
