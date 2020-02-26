@@ -1,0 +1,11 @@
+.contenedor {
+    display: grid;
+    grid-gap: 20px;
+    /* 
+    repeat(n,medida)
+        n= numero de veces a repetir
+        medida= medida para cada uno
+    */
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
